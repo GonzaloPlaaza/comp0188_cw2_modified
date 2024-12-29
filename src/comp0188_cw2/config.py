@@ -5,7 +5,7 @@ from . import project_options
 WANDB_PROJECT = "cw2_v2"
 
 if project_options.collab:
-    ROOT_PATH = "/content/drive/MyDrive/comp0188_2425/cw2"    
+    ROOT_PATH = "/content/drive/MyDrive/comp0188_2425/cw2/data/all_play_data_diverse"    
 else:
     ROOT_PATH = "data/all_play_data_diverse"
 
