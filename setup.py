@@ -10,9 +10,7 @@ setuptools.setup(
     version='1.0.0',
     description="",
     long_description="",
-    packages=(
-    	setuptools.find_packages(where="src"),
-	setuptools.find_packages(where="trained_models"))
+    packages=setuptools.find_packages(where="src")
     author="",
     author_email="",
     long_description_content_type="text/markdown",
@@ -22,5 +20,4 @@ setuptools.setup(
     package_dir={"": "src"},
     python_requires="",
     install_requires=[""],
-    include_package_data=True
 )
